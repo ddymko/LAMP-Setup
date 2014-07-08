@@ -7,6 +7,7 @@
 ## Updates your machine
 sudo apt-get -y update
 sudo apt-get -y upgrade
+sudo apt-get -y install curl
 
 ##Apache install
 sudo apt-get -y install apache2
@@ -29,17 +30,9 @@ sudo chmod 755 laravel.phar
 sudo mv laravel.phar /usr/local/bin/laravel
 
 
-##############
-#
-#
-#
-#
+
 #mv -i /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available/
 #sudo php5enmod mcrypt
 #sudo service apache2 restart
-#
-#
-#
-#
-#
+
 
